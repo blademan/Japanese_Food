@@ -7,7 +7,6 @@ export default function Meals() {
   return (
     <>
       <PromoText />
-
       <MealList />
     </>
   );
