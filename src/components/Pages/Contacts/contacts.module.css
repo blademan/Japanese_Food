@@ -1,0 +1,19 @@
+.form {
+  border: 1px solid black;
+  padding: 3rem;
+}
+.form span {
+  color: red;
+  display: none;
+}
+
+.form input:invalid[focused='true'] ~ span {
+  display: block;
+}
+
+.form input:invalid[focused='true'] {
+  border-bottom: 2px solid red;
+}
+.title {
+  text-align: center;
+}
