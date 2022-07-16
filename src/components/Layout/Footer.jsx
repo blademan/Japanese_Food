@@ -22,7 +22,7 @@ export default function Footer() {
               </li>
               <li>
                 <a className="grey-text text-lighten-3" href="#!">
-                  +371 2345-5353
+                  +371 2345-535
                 </a>
               </li>
             </ul>
