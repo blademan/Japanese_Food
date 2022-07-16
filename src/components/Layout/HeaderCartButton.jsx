@@ -7,9 +7,7 @@ export default function HeaderCartButton(props) {
   const [isBtnAnimated, setIsBtnAnimated] = useState(false);
   const cartContext = useContext(CartContext);
 
-  const cartItemNumber = cartContext.items.reduce((current, item) => {
-    return current + item.amount;
-  }, 0);
+  const cartItemNumber = cartContext.totalCart;
 
   const btnClasses = `${styles.button} ${isBtnAnimated ? styles.bump : ''}`;
 
