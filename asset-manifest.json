@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Japanese_Food/static/css/main.c9e6a96c.chunk.css",
-    "main.js": "/Japanese_Food/static/js/main.09af00f5.chunk.js",
-    "main.js.map": "/Japanese_Food/static/js/main.09af00f5.chunk.js.map",
+    "main.css": "/Japanese_Food/static/css/main.b5fa1a6a.chunk.css",
+    "main.js": "/Japanese_Food/static/js/main.eea1a520.chunk.js",
+    "main.js.map": "/Japanese_Food/static/js/main.eea1a520.chunk.js.map",
     "runtime-main.js": "/Japanese_Food/static/js/runtime-main.2d053c85.js",
     "runtime-main.js.map": "/Japanese_Food/static/js/runtime-main.2d053c85.js.map",
-    "static/js/2.2313ce34.chunk.js": "/Japanese_Food/static/js/2.2313ce34.chunk.js",
-    "static/js/2.2313ce34.chunk.js.map": "/Japanese_Food/static/js/2.2313ce34.chunk.js.map",
+    "static/js/2.487fdd7a.chunk.js": "/Japanese_Food/static/js/2.487fdd7a.chunk.js",
+    "static/js/2.487fdd7a.chunk.js.map": "/Japanese_Food/static/js/2.487fdd7a.chunk.js.map",
     "index.html": "/Japanese_Food/index.html",
-    "static/css/main.c9e6a96c.chunk.css.map": "/Japanese_Food/static/css/main.c9e6a96c.chunk.css.map",
-    "static/js/2.2313ce34.chunk.js.LICENSE.txt": "/Japanese_Food/static/js/2.2313ce34.chunk.js.LICENSE.txt",
+    "static/css/main.b5fa1a6a.chunk.css.map": "/Japanese_Food/static/css/main.b5fa1a6a.chunk.css.map",
+    "static/js/2.487fdd7a.chunk.js.LICENSE.txt": "/Japanese_Food/static/js/2.487fdd7a.chunk.js.LICENSE.txt",
     "static/media/sushi.a2b4b921.jpg": "/Japanese_Food/static/media/sushi.a2b4b921.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d053c85.js",
-    "static/js/2.2313ce34.chunk.js",
-    "static/css/main.c9e6a96c.chunk.css",
-    "static/js/main.09af00f5.chunk.js"
+    "static/js/2.487fdd7a.chunk.js",
+    "static/css/main.b5fa1a6a.chunk.css",
+    "static/js/main.eea1a520.chunk.js"
   ]
 }
