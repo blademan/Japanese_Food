@@ -29,20 +29,21 @@ const DUMMY_MEALS = [
     description: 'Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый',
     price: 7.99,
   },
+  {
+    id: 'm5',
+    name: 'Salmon Roll',
+    description: 'Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый',
+    price: 17.99,
+  },
 ];
 
 export default function Meals() {
   const [sortedCatalog, setSortedCatalog] = useState(DUMMY_MEALS);
 
   const handleSearch = (str) => {
-    console.log(str);
-    if (str.length < 3) {
-      setSortedCatalog(DUMMY_MEALS);
-    } else {
-      setSortedCatalog(
-        sortedCatalog.filter((item) => item.name.toLowerCase().includes(str.toLowerCase())),
-      );
-    }
+    setSortedCatalog(
+      DUMMY_MEALS.filter((item) => item.name.toLowerCase().includes(str.toLowerCase())),
+    );
   };
 
   return (

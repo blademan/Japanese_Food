@@ -20,7 +20,7 @@ export default function OneMeal(props) {
   return (
     <li className={styles.meal}>
       <div>
-        <h3>{props.name}</h3>
+        <h5>{props.name}</h5>
         <div className={styles.description}>{props.description}</div>
         <div className={styles.price}>{formattedPrice}</div>
       </div>

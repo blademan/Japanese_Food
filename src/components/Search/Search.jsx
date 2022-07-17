@@ -1,27 +1,31 @@
 import { useState } from 'react';
+import styles from './search.module.css';
 
 export default function Search({ cb }) {
   const [searchInput, setSearchInput] = useState('');
 
   const handleKey = (e) => {
-    if (e.key === 'Enter') {
-      handleSubmit();
-    }
+    handleSubmit();
   };
 
-  const handleSubmit = (e) => {
-    setSearchInput(e.target.value);
+  const handleSubmit = () => {
     cb(searchInput);
   };
 
+  const test = (e) => {
+    setSearchInput(e.target.value);
+    console.log(searchInput);
+    handleSubmit();
+  };
+
   return (
-    <div className="row container">
-      <div className="col s12">
+    <div className={styles.search}>
+      <div className="col s12 container">
         <div className="row">
           <div className="input-field col s12">
             <input
               onKeyDown={handleKey}
-              onChange={() => handleSubmit}
+              onChange={(e) => test(e)}
               placeholder="Search"
               type="text"
               id="autocomplete-input"
@@ -30,7 +34,7 @@ export default function Search({ cb }) {
           </div>
 
           <button onClick={handleSubmit} className="waves-effect waves-light btn">
-            button
+            Search
           </button>
         </div>
       </div>

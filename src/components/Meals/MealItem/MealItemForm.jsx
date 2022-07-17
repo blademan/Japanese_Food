@@ -21,6 +21,7 @@ export default function MealItemForm(props) {
   return (
     <form onSubmit={submitHandler} className={styles.form}>
       <Input
+        className={styles.input}
         ref={amountInputRef}
         label={'count'}
         input={{
