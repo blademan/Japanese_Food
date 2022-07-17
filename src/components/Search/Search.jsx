@@ -9,7 +9,8 @@ export default function Search({ cb }) {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    setSearchInput(e.target.value);
     cb(searchInput);
   };
 
@@ -20,7 +21,7 @@ export default function Search({ cb }) {
           <div className="input-field col s12">
             <input
               onKeyDown={handleKey}
-              onChange={(e) => setSearchInput(e.target.value)}
+              onChange={() => handleSubmit}
               placeholder="Search"
               type="text"
               id="autocomplete-input"
